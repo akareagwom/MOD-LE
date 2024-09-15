@@ -7,7 +7,7 @@ interface Props {
 const NavBar: React.FC<Props> = ({  }) => {
   return (
     <div>
-      
+      hola
     </div>
   );
 };
