@@ -14,9 +14,9 @@ const Home: React.FC<Props> = ({  }) => {
       <div className="col s12">
         <NavBar/>
       </div>
-      <div className="col s12"><AboutCard/></div>
       <div className="col s5"><AboutCard/></div>
-      <div className="col s6"><AboutCard/></div>
+      <div className="col s3"><AboutCard/></div>
+      <div className="col s4"><AboutCard/></div>
       <div className="col s5"><AboutCard/></div>
     </div>
     </div>
