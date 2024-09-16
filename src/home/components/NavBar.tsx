@@ -6,8 +6,8 @@ interface Props {
 
 const NavBar: React.FC<Props> = ({  }) => {
   return (
-    <div>
-      hola
+    <div className='teal '>
+      <h1 className='white-text'>Euphoria</h1>
     </div>
   );
 };

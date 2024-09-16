@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './home'
-import 'semantic-ui-css/semantic.min.css';
+import 'materialize-css/dist/css/materialize.min.css';
+
 
 
 function App() {
