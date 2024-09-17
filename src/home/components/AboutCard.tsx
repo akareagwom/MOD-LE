@@ -1,4 +1,5 @@
 import React from 'react';
+import '../index.css'
 
 interface Props {
   
@@ -6,9 +7,9 @@ interface Props {
 
 const AboutCard: React.FC<Props> = ({  }) => {
   return (
-    <div className="row">
-    <div className="m6">
-      <div className="card-panel brown darken-1">
+    <div className="row ">
+    <div className="grid-system">
+      <div className="card-panel brown lighten-3">
         <div className="card-content white-text">
           <span className="card-title">Card Title</span>
           <p>I am a very simple card. I am good at containing small bits of information.
