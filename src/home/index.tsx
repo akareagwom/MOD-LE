@@ -14,16 +14,9 @@ const Home: React.FC<Props> = ({  }) => {
       <div className="col s12">
         <NavBar/>
       </div>
-      <div className="grid-container">
-        <div className="col s12 m4 grid-system l5"><AboutCard/></div>
-        <div className="col s12 m4 grid-system l3"><AboutCard/></div>
-        <div className="col s12 m3 grid-system "><AboutCard/></div>
-          <div className="col s12 m4 grid-system 15"><AboutCard/></div>
-          <div className="col s12 m4 grid-system 15"><AboutCard/></div>
-      </div>
-      {/* <div className="col s4 push-s0"><span className="flow-text red-text"><AboutCard/></span></div>
-      <div className="col s4 push-s0"><span className="flow-text red-text"><AboutCard/></span></div>
-      <div className="col s4 push-s0"><span className="flow-text red-text"><AboutCard/></span></div> */}
+     <div className="">
+        <AboutCard/>
+     </div>
     </div>
     </div>
   );
