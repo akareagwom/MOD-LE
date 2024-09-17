@@ -7,13 +7,13 @@ interface Props {
 
 const NavBar: React.FC<Props> = ({  }) => {
   return (
-    <nav className='brown lighten-3 nav'>
-    <div className="">
-      <a href="#" className="brand-logo">Logo</a>
-      <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li><a href="sass.html">HOME</a></li>
-        <li><a href="badges.html">ABOUT</a></li>
-        <li><a href="collapsible.html">CONTACT</a></li>
+    <nav className='bg-yellow-900 m-4 rounded-xl'>
+    <div className="flex p-6 text-white justify-between">
+      <a href="#" className="">Logo</a>
+      <ul id="" className="flex justify-between w-[30%]">
+        <li >HOME</li>
+        <li>ABOUT</li>
+        <li>CONTACT</li>
       </ul>
     </div>
   </nav>
