@@ -7,7 +7,7 @@ interface Props {
 
 const NavBar: React.FC<Props> = ({  }) => {
   return (
-    <nav className='bg-yellow-900 m-4 rounded-xl'>
+    <nav className='bg-[#cbb89d] m-4 rounded-xl'>
     <div className="flex p-6 text-white justify-between">
       <a href="#" className="">Logo</a>
       <ul id="" className="flex justify-between w-[30%]">

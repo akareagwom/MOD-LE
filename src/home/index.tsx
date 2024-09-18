@@ -10,23 +10,25 @@ interface Props {
 
 const Home: React.FC<Props> = ({  }) => {
   return (
-    <div className='black'>
+    <div className=''>
       
       <div className="">
       <div className="">
         <NavBar/>
       </div>
-        <div className="grid grid-cols-3 gap-4 p-4">
-          <div className="">
+      <section className='flex  gap-4 w-[100%] p-4'>
+        {/* section1 */}
+        <div className="flex gap-4">
               <AboutCard/>
-          </div>
-          <div className="">
               <PhotoSlider/>
-          </div>
-          <div className="">
-            <MainCard/>
-          </div>
         </div>
+
+
+        {/* section2 */}
+          <MainCard/>
+        
+
+      </section>
     </div>
     </div>
   );
