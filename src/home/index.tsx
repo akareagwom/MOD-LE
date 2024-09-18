@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from './components/NavBar';
 import AboutCard from './components/AboutCard';
 import PhotoSlider from './components/PhotoSlider';
+import MainCard from './components/MainCard';
 
 interface Props {
   
@@ -21,6 +22,9 @@ const Home: React.FC<Props> = ({  }) => {
           </div>
           <div className="">
               <PhotoSlider/>
+          </div>
+          <div className="">
+            <MainCard/>
           </div>
         </div>
     </div>
