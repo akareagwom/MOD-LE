@@ -17,22 +17,23 @@ const Home: React.FC<Props> = ({  }) => {
         <NavBar/>
       </div>
       
-      <section className='flex flex-wrap gap-4 w-[100%] p-4'>
+      <section className='flex p-4 '>
         {/* section1 */}
-        <div className="flex gap-4">
-              <AboutCard/>
-              <PhotoSlider/>
+        <div className="flex flex-wrap gap-4">
+          <AboutCard/>
+          <PhotoSlider/>
+          <ContactCard/>
+          <ContactCard/>
+        </div>
+        {/* section2 */}
+          <MainCard/>
+          {/* <Footer/> */}
+        <div className="block">
         </div>
 
-        {/* section2 */}
-        
-          <MainCard/>
-          <ContactCard/>
-          <Footer/>
+      </section>
     
 
-        
-      </section>
     
     </div>
   );

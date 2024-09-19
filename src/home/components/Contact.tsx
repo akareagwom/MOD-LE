@@ -6,7 +6,7 @@ interface Props {
 
 const ContactCard: React.FC<Props> = ({  }) => {
   return (
-    <div className="bg-[#cbb89d] rounded-xl w-[80%] h-[250px]">
+    <div className="bg-[#cbb89d] rounded-xl w-[40%] h-[250px]">
     <div className="p-2">
           <p>I am a very simple card. I am good at containing small bits of information.
           I am convenient because I require little markup to use effectively.</p>
