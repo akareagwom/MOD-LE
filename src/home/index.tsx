@@ -4,6 +4,7 @@ import AboutCard from './components/AboutCard';
 import PhotoSlider from './components/PhotoSlider';
 import MainCard from './components/MainCard';
 import Footer from './components/Footer';
+import ContactCard from './components/Contact';
 
 interface Props {
   
@@ -16,7 +17,7 @@ const Home: React.FC<Props> = ({  }) => {
         <NavBar/>
       </div>
       
-      <section className='flex  gap-4 w-[100%] p-4'>
+      <section className='flex flex-wrap gap-4 w-[100%] p-4'>
         {/* section1 */}
         <div className="flex gap-4">
               <AboutCard/>
@@ -24,10 +25,11 @@ const Home: React.FC<Props> = ({  }) => {
         </div>
 
         {/* section2 */}
-        <div className="m-0 p-0 w-[90%] gap-0">
+        
           <MainCard/>
+          <ContactCard/>
           <Footer/>
-        </div>
+    
 
         
       </section>
