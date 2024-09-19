@@ -19,7 +19,7 @@ const Home: React.FC<Props> = ({  }) => {
       
       <section className='flex p-4 m-0'>
         {/* section1 */}
-        <div className="flex flex-wrap box-border gap-4">
+        <div className="flex w-[100%] flex-wrap box-border gap-4">
           <AboutCard/>
           <PhotoSlider/>
           <ContactCard/>
