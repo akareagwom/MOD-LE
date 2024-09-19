@@ -12,21 +12,21 @@ interface Props {
 
 const Home: React.FC<Props> = ({  }) => {
   return (
-    <div className=''>
+    <div className='m-0 p-0'>
       <div className="">
         <NavBar/>
       </div>
       
-      <section className='flex p-4 '>
+      <section className='flex p-4 m-0'>
         {/* section1 */}
-        <div className="flex flex-wrap gap-4">
+        <div className="flex flex-wrap box-border gap-4">
           <AboutCard/>
           <PhotoSlider/>
           <ContactCard/>
           <ContactCard/>
         </div>
         {/* section2 */}
-        <div className="block">
+        <div className="block m-0 p-0">
           <MainCard/>
           <Footer/>
         </div>
