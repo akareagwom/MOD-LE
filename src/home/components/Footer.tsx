@@ -6,8 +6,9 @@ interface Props {
 
 const Footer: React.FC<Props> = ({  }) => {
   return (
-    <div>
-      
+    <div className='text-white' >
+
+      hello
     </div>
   );
 };

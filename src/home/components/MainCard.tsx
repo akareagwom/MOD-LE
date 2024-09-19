@@ -6,8 +6,7 @@ interface Props {
 
 const MainCard: React.FC<Props> = ({  }) => {
   return (
-    <div className='bg-[#cbb89d] text-white w-[60%] rounded-xl'>
-      <div className="py-4 px-4">
+      <div className="py-4 px-4 bg-[#cbb89d] text-white w-[60%] rounded-xl">
         <h1 className=' text-2xl align-start'>steady</h1>
         <img className='rounded-xl my-2' src="model.avif" alt="" />
 
@@ -19,7 +18,6 @@ const MainCard: React.FC<Props> = ({  }) => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 
