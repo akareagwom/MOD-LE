@@ -26,9 +26,9 @@ const Home: React.FC<Props> = ({  }) => {
           <ContactCard/>
         </div>
         {/* section2 */}
-          <MainCard/>
-          {/* <Footer/> */}
         <div className="block">
+          <MainCard/>
+          <Footer/>
         </div>
 
       </section>
